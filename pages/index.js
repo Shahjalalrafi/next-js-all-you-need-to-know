@@ -1,12 +1,14 @@
 import HomePage from "../Src/view/HomePage/HomePage";
+import Link from "next/link"
 
-      
-
-export default function Home({products}) {
+export default function Home({ products }) {
   return (
     <div>
       this is home page
-      <HomePage products = {products} />
+      <Link href="/posts">
+        <p>Posts</p>
+      </Link>
+      <HomePage products={products} />
       {/* {
         products.map(product => (
          <>
@@ -19,7 +21,7 @@ export default function Home({products}) {
   )
 }
 
-export async function getStaticProps () {
+export async function getStaticProps() {
   const res = await fetch("https://fakestoreapi.com/products");
   const data = await res.json();
 
