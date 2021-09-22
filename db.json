@@ -1,4 +1,36 @@
 {
+    "dashboard": {
+        "like": 402,
+        "comment" : 45,
+        "followers" : 1200,
+        "following": 32 
+    },
+    "news": [
+        {
+            "id": 1,
+            "title": "news 1",
+            "description": "news 1 description",
+            "category": "sports"
+        },
+        {
+            "id": 2,
+            "title": "news 2",
+            "description": "news 2 description",
+            "category": "study"
+        },
+        {
+            "id": 3,
+            "title": "news 3",
+            "description": "news 3 description",
+            "category": "sports"
+        },
+        {
+            "id": 4,
+            "title": "news 4",
+            "description": "news 4 description",
+            "category": "politics"
+        }
+    ],
     "products": [
         {
             "id": 1,
