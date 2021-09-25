@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.header {
+  background-color: burlywood;
+  color: black;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+.footer {
+  background-color: burlywood;
+  color: black;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700;
+}

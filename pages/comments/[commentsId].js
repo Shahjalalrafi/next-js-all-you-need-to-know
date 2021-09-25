@@ -10,17 +10,6 @@ export default function Comment({comment}) {
 }
 
 
-// export async function getStaticPaths() {
-//     return {
-//         paths: [
-//             {params: {commentID: '1'}},
-//             {params: {commentID: '2'}},
-//             {params: {commentID: '3'}},
-//         ],
-//         fallback: false
-//     }
-// }
-
 export async function getStaticPaths() {
     return {
       paths: [
