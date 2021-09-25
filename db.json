@@ -1,10 +1,38 @@
 {
-    "dashboard": {
-        "like": 402,
-        "comment" : 45,
-        "followers" : 1200,
-        "following": 32 
-    },
+    "dashboard": [
+        {
+            "Name": "Martine of Martine's Table",
+            "City": "Amsterdam",
+            "CuisineStyle": "['French', 'Dutch', 'European']",
+            "Ranking": 1,
+            "Rating": 5,
+            "NumberOfReviews": 136
+        },
+        {
+            "Name": "De Silveren Spiegel",
+            "City": "Amsterdam",
+            "CuisineStyle": "['Dutch', 'European', 'Vegetarian Friendly', 'Gluten Free Options']",
+            "Ranking": 2,
+            "Rating": 4.5,
+            "NumberOfReviews": 812
+        },
+        {
+            "Name": "La Rive",
+            "City": "Amsterdam",
+            "CuisineStyle": "['Mediterranean', 'French', 'International', 'European', 'Vegetarian Friendly', 'Vegan Options']",
+            "Ranking": 3,
+            "Rating": 4.5,
+            "NumberOfReviews": 567
+        },
+        {
+            "Name": "Vinkeles",
+            "City": "Amsterdam",
+            "CuisineStyle": "['French', 'European', 'International', 'Contemporary', 'Vegetarian Friendly', 'Vegan Options', 'Gluten Free Options']",
+            "Ranking": 4,
+            "Rating": 5,
+            "NumberOfReviews": 564
+        }
+    ],
     "news": [
         {
             "id": 1,
@@ -55,6 +83,50 @@
             "title": "product 4",
             "price": 340,
             "description": "product 4 description"
+        }
+    ],
+    "events": [
+        {
+            "id": 1,
+            "title": "first events",
+            "description" : "first description",
+            "category": "sports"
+        },
+        {
+            "id": 2,
+            "title": "two events",
+            "description" : "two description",
+            "category": "study"
+        },
+        {
+            "id": 3,
+            "title": "three events",
+            "description" : "three description",
+            "category": "tour"
+        },
+        {
+            "id": 4,
+            "title": "four events",
+            "description" : "four description",
+            "category": "study"
+        },
+        {
+            "id": 5,
+            "title": "five events",
+            "description" : "five description",
+            "category": "sports"
+        },
+        {
+            "id": 6,
+            "title": "six events",
+            "description" : "six description",
+            "category": "sports"
+        },
+        {
+            "id": 7,
+            "title": "seven events",
+            "description" : "seven description",
+            "category": "politics"
         }
     ]
 }
